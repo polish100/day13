@@ -1,23 +1,12 @@
 body {
   //  background-image: image-url('back.jpg');
-}
-
-h1 {
-  color: #000000;
-  font-size: 40px;
-  margin: 250px auto auto;
-  text-align: center;
-}
-
-p {
-  color: #000000;
-  font-size: 40px;
-  text-align: center;
+  font-family: 'メイリオ',Meiryo,'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','MS Pゴシック',sans-serif;
+  margin: 0;
 }
 
 .btn {
   background: #0000ff;
-  border: 1px solid #DDD;
+  border: 1px solid #ddd;
   border-radius: 20px;
   display: block;
   font-size: 20px;
@@ -27,4 +16,173 @@ p {
   text-align: center;
   text-decoration: none;
   width: 200px;
+}
+
+.box-a::after {
+  clear: both;
+  content: '';
+  display: block;
+}
+
+.box1 {
+  float: left;
+  width: auto;
+}
+
+.box2 {
+  float: right;
+  width: auto;
+}
+
+.site a {
+  color: white;
+  text-decoration: none;
+}
+
+.site h1 {
+  color: white;
+  font-size: 30px;
+  margin: 0;
+  text-decoration: none;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu a {
+  color: white;
+  display: block;
+  font-size: 14px;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+.menu li {
+  color: white;
+  display: block;
+  float: left;
+  font-size: 14px;
+  padding: 10px 15px;
+  text-decoration: none;
+  width: auto;
+}
+
+.menu li:hover a:hover {
+  background-color: #eee;
+}
+
+.menu ul::after {
+  clear: both;
+  content: '';
+  display: block;
+}
+
+.topimg {
+  max-height: 300px;
+  vertical-align: bottom;
+  width: 100%;
+}
+
+.box5 {
+  background-color: #dddddd;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+}
+
+.box-a {
+  background-color: black;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 20px;
+}
+
+.box4 {
+  background-color: #e8e8c4;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.box4::after {
+  clear: both;
+  content: '';
+  display: block;
+}
+
+.box4-1 {
+  float: left;
+  margin-right: 2%;
+  width: 32%;
+}
+
+.box4-2 {
+  float: left;
+  margin-right: 2%;
+  width: 32%;
+}
+
+.box4-3 {
+  float: left;
+  width: 32%;
+}
+
+.merit h1 {
+  font-size: 28px;
+  font-weight: normal;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.merit a:hover {
+  opacity: .8;
+}
+
+.merit i {
+  display: block;
+  font-size: 38px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.merit .fa-heart {
+  background-color: #E8373E
+}
+
+.merit .fa-television {
+  background-color: #83A300
+}
+
+.merit .fa-connectdevelop {
+  background-color: #F58723
+}
+
+.merit p {
+  background-color: #524e3c;
+  font-size: 12px;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.merit a {
+  background-color: #222;
+  color: #fff;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+
+.copyright p {
+  color: #666;
+  font-size: 14px;
+  margin: 0;
+  text-align: center;
 }
