@@ -14,6 +14,7 @@ class InquiriesController < ApplicationController
   end
 
   def thanks
+    @inquiry = Inquiry.create(inquiry_params)
   end
 
   def show
